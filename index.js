@@ -280,6 +280,13 @@ when he clicks on submit. Watch this video to understand
 the agorithm that you can use
 */
    localStorage.setItem(newItem, newItem1);
+   
+// Show the booking made on the screen with the user details
+   let list2 = document.createElement('li');
+
+   list2 = localStorage.getItem(newItem);
+   console.log(list2);
+   
 }
 
 // // Remove item
