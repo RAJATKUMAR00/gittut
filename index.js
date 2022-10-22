@@ -272,6 +272,14 @@ function addItem(e){
 
 //   // Append li to list
    itemList.appendChild(li);
+   
+    /*  Deliverable
+
+Write logic to store the details entered by the user in the local storage 
+when he clicks on submit. Watch this video to understand 
+the agorithm that you can use
+*/
+   localStorage.setItem(newItem, newItem1);
 }
 
 // // Remove item
